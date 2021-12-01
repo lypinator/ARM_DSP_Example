@@ -1,0 +1,494 @@
+###############################################################################
+#
+# IAR ELF Linker V9.20.1.318/W64 for ARM                  23/Nov/2021  23:04:10
+# Copyright 2007-2021 IAR Systems AB.
+#
+#    Output file  =
+#        C:\Users\t_lyp\Desktop\SchoolStuff\ELEN501\lab\Board_Test\TestLittleBoard\EWARM\TestLittleBoard\Exe\TestLittleBoard.out
+#    Map file     =
+#        C:\Users\t_lyp\Desktop\SchoolStuff\ELEN501\lab\Board_Test\TestLittleBoard\EWARM\TestLittleBoard\List\TestLittleBoard.map
+#    Command line =
+#        -f
+#        C:\Users\t_lyp\Desktop\SchoolStuff\ELEN501\lab\Board_Test\TestLittleBoard\EWARM\TestLittleBoard\Exe\TestLittleBoard.out.rsp
+#        (C:\Users\t_lyp\Desktop\SchoolStuff\ELEN501\lab\Board_Test\TestLittleBoard\EWARM\TestLittleBoard\Obj\Drivers\CMSIS\arm_cfft_f32.o
+#        C:\Users\t_lyp\Desktop\SchoolStuff\ELEN501\lab\Board_Test\TestLittleBoard\EWARM\TestLittleBoard\Obj\Application\User\KeyboardHoldRepeat.o
+#        C:\Users\t_lyp\Desktop\SchoolStuff\ELEN501\lab\Board_Test\TestLittleBoard\EWARM\TestLittleBoard\Obj\Application\User\Core\main.o
+#        C:\Users\t_lyp\Desktop\SchoolStuff\ELEN501\lab\Board_Test\TestLittleBoard\EWARM\TestLittleBoard\Obj\Application\EWARM\startup_stm32f303x8.o
+#        C:\Users\t_lyp\Desktop\SchoolStuff\ELEN501\lab\Board_Test\TestLittleBoard\EWARM\TestLittleBoard\Obj\Drivers\STM32F3xx_HAL_Driver\stm32f3xx_hal.o
+#        C:\Users\t_lyp\Desktop\SchoolStuff\ELEN501\lab\Board_Test\TestLittleBoard\EWARM\TestLittleBoard\Obj\Drivers\STM32F3xx_HAL_Driver\stm32f3xx_hal_adc.o
+#        C:\Users\t_lyp\Desktop\SchoolStuff\ELEN501\lab\Board_Test\TestLittleBoard\EWARM\TestLittleBoard\Obj\Drivers\STM32F3xx_HAL_Driver\stm32f3xx_hal_adc_ex.o
+#        C:\Users\t_lyp\Desktop\SchoolStuff\ELEN501\lab\Board_Test\TestLittleBoard\EWARM\TestLittleBoard\Obj\Drivers\STM32F3xx_HAL_Driver\stm32f3xx_hal_cortex.o
+#        C:\Users\t_lyp\Desktop\SchoolStuff\ELEN501\lab\Board_Test\TestLittleBoard\EWARM\TestLittleBoard\Obj\Drivers\STM32F3xx_HAL_Driver\stm32f3xx_hal_dma.o
+#        C:\Users\t_lyp\Desktop\SchoolStuff\ELEN501\lab\Board_Test\TestLittleBoard\EWARM\TestLittleBoard\Obj\Drivers\STM32F3xx_HAL_Driver\stm32f3xx_hal_exti.o
+#        C:\Users\t_lyp\Desktop\SchoolStuff\ELEN501\lab\Board_Test\TestLittleBoard\EWARM\TestLittleBoard\Obj\Drivers\STM32F3xx_HAL_Driver\stm32f3xx_hal_flash.o
+#        C:\Users\t_lyp\Desktop\SchoolStuff\ELEN501\lab\Board_Test\TestLittleBoard\EWARM\TestLittleBoard\Obj\Drivers\STM32F3xx_HAL_Driver\stm32f3xx_hal_flash_ex.o
+#        C:\Users\t_lyp\Desktop\SchoolStuff\ELEN501\lab\Board_Test\TestLittleBoard\EWARM\TestLittleBoard\Obj\Drivers\STM32F3xx_HAL_Driver\stm32f3xx_hal_gpio.o
+#        C:\Users\t_lyp\Desktop\SchoolStuff\ELEN501\lab\Board_Test\TestLittleBoard\EWARM\TestLittleBoard\Obj\Drivers\STM32F3xx_HAL_Driver\stm32f3xx_hal_i2c.o
+#        C:\Users\t_lyp\Desktop\SchoolStuff\ELEN501\lab\Board_Test\TestLittleBoard\EWARM\TestLittleBoard\Obj\Drivers\STM32F3xx_HAL_Driver\stm32f3xx_hal_i2c_ex.o
+#        C:\Users\t_lyp\Desktop\SchoolStuff\ELEN501\lab\Board_Test\TestLittleBoard\EWARM\TestLittleBoard\Obj\Application\User\Core\stm32f3xx_hal_msp.o
+#        C:\Users\t_lyp\Desktop\SchoolStuff\ELEN501\lab\Board_Test\TestLittleBoard\EWARM\TestLittleBoard\Obj\Drivers\STM32F3xx_HAL_Driver\stm32f3xx_hal_pwr.o
+#        C:\Users\t_lyp\Desktop\SchoolStuff\ELEN501\lab\Board_Test\TestLittleBoard\EWARM\TestLittleBoard\Obj\Drivers\STM32F3xx_HAL_Driver\stm32f3xx_hal_pwr_ex.o
+#        C:\Users\t_lyp\Desktop\SchoolStuff\ELEN501\lab\Board_Test\TestLittleBoard\EWARM\TestLittleBoard\Obj\Drivers\STM32F3xx_HAL_Driver\stm32f3xx_hal_rcc.o
+#        C:\Users\t_lyp\Desktop\SchoolStuff\ELEN501\lab\Board_Test\TestLittleBoard\EWARM\TestLittleBoard\Obj\Drivers\STM32F3xx_HAL_Driver\stm32f3xx_hal_rcc_ex.o
+#        C:\Users\t_lyp\Desktop\SchoolStuff\ELEN501\lab\Board_Test\TestLittleBoard\EWARM\TestLittleBoard\Obj\Drivers\STM32F3xx_HAL_Driver\stm32f3xx_hal_tim.o
+#        C:\Users\t_lyp\Desktop\SchoolStuff\ELEN501\lab\Board_Test\TestLittleBoard\EWARM\TestLittleBoard\Obj\Drivers\STM32F3xx_HAL_Driver\stm32f3xx_hal_tim_ex.o
+#        C:\Users\t_lyp\Desktop\SchoolStuff\ELEN501\lab\Board_Test\TestLittleBoard\EWARM\TestLittleBoard\Obj\Application\User\Core\stm32f3xx_it.o
+#        C:\Users\t_lyp\Desktop\SchoolStuff\ELEN501\lab\Board_Test\TestLittleBoard\EWARM\TestLittleBoard\Obj\Drivers\CMSIS\system_stm32f3xx.o
+#        --no_out_extension -o
+#        C:\Users\t_lyp\Desktop\SchoolStuff\ELEN501\lab\Board_Test\TestLittleBoard\EWARM\TestLittleBoard\Exe\TestLittleBoard.out
+#        --redirect _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb
+#        --map
+#        C:\Users\t_lyp\Desktop\SchoolStuff\ELEN501\lab\Board_Test\TestLittleBoard\EWARM\TestLittleBoard\List\TestLittleBoard.map
+#        --config
+#        C:\Users\t_lyp\Desktop\SchoolStuff\ELEN501\lab\Board_Test\TestLittleBoard\EWARM/stm32f303x8_flash.icf
+#        --semihosting --entry __iar_program_start "C:\Program Files\IAR
+#        Systems\Embedded Workbench
+#        9.0\arm\CMSIS\Lib\IAR\iar_cortexM4lf_math.a" --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__CPP_Runtime   = 1
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because some modules are built with
+size limitations (and not runtime checking), and --advanced_heap
+was not specified.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x800'0000 { ro section .intvec };
+"P1":  place in [from 0x800'0000 to 0x800'ffff] { ro };
+define block CSTACK with size = 1K, alignment = 8 { };
+define block HEAP with size = 512, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2000'2fff] {
+          rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+  Section            Kind         Address    Size  Object
+  -------            ----         -------    ----  ------
+"A0":                                       0x188
+  .intvec            ro code   0x800'0000   0x188  startup_stm32f303x8.o [1]
+                             - 0x800'0188   0x188
+
+"P1":                                      0x4688
+  .rodata            const     0x800'0188  0x1000  arm_common_tables.o [7]
+  .text              ro code   0x800'1188   0x860  stm32f3xx_hal_adc_ex.o [5]
+  .text              ro code   0x800'19e8   0x160  stm32f3xx_hal_msp.o [3]
+  .text              ro code   0x800'1b48   0x1c0  stm32f3xx_hal_dma.o [5]
+  .text              ro code   0x800'1d08     0x2  stm32f3xx_hal_adc.o [5]
+  .text              ro code   0x800'1d0a     0x2  stm32f3xx_hal_adc.o [5]
+  .text              ro code   0x800'1d0c     0x2  stm32f3xx_hal_adc.o [5]
+  .text              ro code   0x800'1d0e    0x2a  copy_init3.o [9]
+  .text              ro code   0x800'1d38     0xc  stm32f3xx_hal.o [5]
+  .text              ro code   0x800'1d44   0x1d8  stm32f3xx_hal_gpio.o [5]
+  .text              ro code   0x800'1f1c   0x612  main.o [3]
+  .text              ro code   0x800'252e    0x14  memset.o [9]
+  .text              ro code   0x800'2544    0x24  stm32f3xx_hal.o [5]
+  .text              ro code   0x800'2568     0x6  ABImemclr4.o [9]
+  .text              ro code   0x800'2570   0x680  stm32f3xx_hal_tim.o [5]
+  .text              ro code   0x800'2bf0    0xf0  stm32f3xx_hal_tim_ex.o [5]
+  .text              ro code   0x800'2ce0    0xc4  stm32f3xx_hal_cortex.o [5]
+  .text              ro code   0x800'2da4    0x40  KeyboardHoldRepeat.o [2]
+  .text              ro code   0x800'2de4   0x63a  arm_cfft_f32.o [4]
+  .text              ro code   0x800'3420   0x158  arm_cmplx_mag_f32.o [7]
+  .text              ro code   0x800'3578   0x498  stm32f3xx_hal_rcc.o [5]
+  .text              ro code   0x800'3a10   0x10c  stm32f3xx_hal_rcc_ex.o [5]
+  .text              ro code   0x800'3b1c    0x66  ABImemset.o [9]
+  .text              ro code   0x800'3b84    0x40  stm32f3xx_hal.o [5]
+  .text              ro code   0x800'3bc4    0x32  ABImemset48.o [9]
+  .text              ro code   0x800'3bf8   0x5a2  arm_cfft_radix8_f32.o [7]
+  .text              ro code   0x800'419a    0x44  arm_bitreversal2.o [7]
+  .rodata            const     0x800'41e0   0x380  arm_common_tables.o [7]
+  .text              ro code   0x800'4560    0x90  stm32f3xx_it.o [3]
+  .text              ro code   0x800'45f0    0x10  stm32f3xx_hal.o [5]
+  .text              ro code   0x800'4600    0x38  zero_init3.o [9]
+  .text              ro code   0x800'4638    0x28  data_init.o [9]
+  .text              ro code   0x800'4660    0x22  fpinit_M.o [8]
+  .iar.init_table    const     0x800'4684    0x24  - Linker created -
+  .text              ro code   0x800'46a8    0x20  system_stm32f3xx.o [4]
+  .text              ro code   0x800'46c8    0x1e  cmain.o [9]
+  .text              ro code   0x800'46e6     0x4  low_level_init.o [6]
+  .text              ro code   0x800'46ea     0x4  exit.o [6]
+  .text              ro code   0x800'46f0     0xa  cexit.o [9]
+  .text              ro code   0x800'46fc    0x14  exit.o [10]
+  .text              ro code   0x800'4710    0x1c  cstartup_M.o [9]
+  Initializer bytes  const     0x800'472c    0x1c  <for P2-1>
+  .rodata            const     0x800'4748    0x10  arm_const_structs.o [7]
+  .text              ro code   0x800'4758    0x10  startup_stm32f303x8.o [1]
+  .text              ro code   0x800'4768     0x4  startup_stm32f303x8.o [1]
+  .text              ro code   0x800'476c     0x4  startup_stm32f303x8.o [1]
+  .text              ro code   0x800'4770     0x4  startup_stm32f303x8.o [1]
+  .text              ro code   0x800'4774     0x4  startup_stm32f303x8.o [1]
+  .text              ro code   0x800'4778     0x4  startup_stm32f303x8.o [1]
+  .text              ro code   0x800'477c     0x4  startup_stm32f303x8.o [1]
+  .text              ro code   0x800'4780     0x4  startup_stm32f303x8.o [1]
+  .text              ro code   0x800'4784     0x4  startup_stm32f303x8.o [1]
+  .text              ro code   0x800'4788     0x4  startup_stm32f303x8.o [1]
+  .text              ro code   0x800'478c     0x4  startup_stm32f303x8.o [1]
+  .text              ro code   0x800'4790     0x4  startup_stm32f303x8.o [1]
+  .text              ro code   0x800'4794     0x4  startup_stm32f303x8.o [1]
+  .text              ro code   0x800'4798     0x4  startup_stm32f303x8.o [1]
+  .text              ro code   0x800'479c     0x4  startup_stm32f303x8.o [1]
+  .text              ro code   0x800'47a0     0x4  startup_stm32f303x8.o [1]
+  .text              ro code   0x800'47a4     0x4  startup_stm32f303x8.o [1]
+  .text              ro code   0x800'47a8     0x4  startup_stm32f303x8.o [1]
+  .text              ro code   0x800'47ac     0x4  startup_stm32f303x8.o [1]
+  .text              ro code   0x800'47b0     0x4  startup_stm32f303x8.o [1]
+  .text              ro code   0x800'47b4     0x4  startup_stm32f303x8.o [1]
+  .text              ro code   0x800'47b8     0x4  startup_stm32f303x8.o [1]
+  .text              ro code   0x800'47bc     0x4  startup_stm32f303x8.o [1]
+  .text              ro code   0x800'47c0     0x4  startup_stm32f303x8.o [1]
+  .text              ro code   0x800'47c4     0x4  startup_stm32f303x8.o [1]
+  .text              ro code   0x800'47c8     0x4  startup_stm32f303x8.o [1]
+  .text              ro code   0x800'47cc     0x4  startup_stm32f303x8.o [1]
+  .text              ro code   0x800'47d0     0x4  startup_stm32f303x8.o [1]
+  .text              ro code   0x800'47d4     0x4  startup_stm32f303x8.o [1]
+  .text              ro code   0x800'47d8     0x4  startup_stm32f303x8.o [1]
+  .text              ro code   0x800'47dc     0x4  startup_stm32f303x8.o [1]
+  .text              ro code   0x800'47e0     0x4  startup_stm32f303x8.o [1]
+  .text              ro code   0x800'47e4     0x4  startup_stm32f303x8.o [1]
+  .text              ro code   0x800'47e8     0x4  startup_stm32f303x8.o [1]
+  .text              ro code   0x800'47ec     0x4  startup_stm32f303x8.o [1]
+  .text              ro code   0x800'47f0     0x4  startup_stm32f303x8.o [1]
+  .text              ro code   0x800'47f4     0x4  startup_stm32f303x8.o [1]
+  .text              ro code   0x800'47f8     0x4  startup_stm32f303x8.o [1]
+  .text              ro code   0x800'47fc     0x4  startup_stm32f303x8.o [1]
+  .text              ro code   0x800'4800     0x4  startup_stm32f303x8.o [1]
+  .text              ro code   0x800'4804     0x4  startup_stm32f303x8.o [1]
+  .text              ro code   0x800'4808     0x4  startup_stm32f303x8.o [1]
+  .text              ro code   0x800'480c     0x4  startup_stm32f303x8.o [1]
+  .rodata            const     0x800'4810     0x0  zero_init3.o [9]
+  .rodata            const     0x800'4810     0x0  copy_init3.o [9]
+                             - 0x800'4810  0x4688
+
+"P2", part 1 of 3:                           0x1c
+  P2-1                        0x2000'0000    0x1c  <Init block>
+    .data            inited   0x2000'0000     0xc  stm32f3xx_hal.o [5]
+    .data            inited   0x2000'000c     0x4  system_stm32f3xx.o [4]
+    .data            inited   0x2000'0010     0xc  stm32f3xx_it.o [3]
+                            - 0x2000'001c    0x1c
+
+"P2", part 2 of 3:                         0x2198
+  .bss               zero     0x2000'001c  0x18e4  main.o [3]
+  .bss               zero     0x2000'1900   0x800  main.o [3]
+  .bss               zero     0x2000'2100    0x5c  main.o [3]
+  .bss               zero     0x2000'215c    0x4c  main.o [3]
+  .bss               zero     0x2000'21a8     0xc  stm32f3xx_it.o [3]
+                            - 0x2000'21b4  0x2198
+
+"P2", part 3 of 3:                          0x400
+  CSTACK                      0x2000'21b8   0x400  <Block>
+    CSTACK           uninit   0x2000'21b8   0x400  <Block tail>
+                            - 0x2000'25b8   0x400
+
+Unused ranges:
+
+         From           To    Size
+         ----           --    ----
+   0x800'4810   0x800'ffff  0xb7f0
+  0x2000'21b4  0x2000'21b7     0x4
+  0x2000'25b8  0x2000'2fff   0xa48
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x2198:
+          0x2000'001c  0x2198
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0x1c:
+           0x800'472c    0x1c
+    1 destination range, total size 0x1c:
+          0x2000'0000    0x1c
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  ro data  rw data
+    ------                  -------  -------  -------
+command line/config:
+    -------------------------------------------------
+    Total:
+
+C:\Users\t_lyp\Desktop\SchoolStuff\ELEN501\lab\Board_Test\TestLittleBoard\EWARM\TestLittleBoard\Obj\Application\EWARM: [1]
+    startup_stm32f303x8.o       576
+    -------------------------------------------------
+    Total:                      576
+
+C:\Users\t_lyp\Desktop\SchoolStuff\ELEN501\lab\Board_Test\TestLittleBoard\EWARM\TestLittleBoard\Obj\Application\User: [2]
+    KeyboardHoldRepeat.o         64
+    -------------------------------------------------
+    Total:                       64
+
+C:\Users\t_lyp\Desktop\SchoolStuff\ELEN501\lab\Board_Test\TestLittleBoard\EWARM\TestLittleBoard\Obj\Application\User\Core: [3]
+    main.o                    1'554             8'588
+    stm32f3xx_hal_msp.o         352
+    stm32f3xx_it.o              144       12       24
+    -------------------------------------------------
+    Total:                    2'050       12    8'612
+
+C:\Users\t_lyp\Desktop\SchoolStuff\ELEN501\lab\Board_Test\TestLittleBoard\EWARM\TestLittleBoard\Obj\Drivers\CMSIS: [4]
+    arm_cfft_f32.o            1'594
+    system_stm32f3xx.o           32        4        4
+    -------------------------------------------------
+    Total:                    1'626        4        4
+
+C:\Users\t_lyp\Desktop\SchoolStuff\ELEN501\lab\Board_Test\TestLittleBoard\EWARM\TestLittleBoard\Obj\Drivers\STM32F3xx_HAL_Driver: [5]
+    stm32f3xx_hal.o             128       12       12
+    stm32f3xx_hal_adc.o           6
+    stm32f3xx_hal_adc_ex.o    2'144
+    stm32f3xx_hal_cortex.o      196
+    stm32f3xx_hal_dma.o         448
+    stm32f3xx_hal_gpio.o        472
+    stm32f3xx_hal_rcc.o       1'176
+    stm32f3xx_hal_rcc_ex.o      268
+    stm32f3xx_hal_tim.o       1'664
+    stm32f3xx_hal_tim_ex.o      240
+    -------------------------------------------------
+    Total:                    6'742       12       12
+
+dl7M_tlf.a: [6]
+    exit.o                        4
+    low_level_init.o              4
+    -------------------------------------------------
+    Total:                        8
+
+iar_cortexM4lf_math.a: [7]
+    arm_bitreversal2.o           68
+    arm_cfft_radix8_f32.o     1'442
+    arm_cmplx_mag_f32.o         344
+    arm_common_tables.o                4'992
+    arm_const_structs.o                   16
+    -------------------------------------------------
+    Total:                    1'854    5'008
+
+m7M_tls.a: [8]
+    fpinit_M.o                   34
+    -------------------------------------------------
+    Total:                       34
+
+rt7M_tl.a: [9]
+    ABImemclr4.o                  6
+    ABImemset.o                 102
+    ABImemset48.o                50
+    cexit.o                      10
+    cmain.o                      30
+    copy_init3.o                 42
+    cstartup_M.o                 28
+    data_init.o                  40
+    memset.o                     20
+    zero_init3.o                 56
+    -------------------------------------------------
+    Total:                      384
+
+shb_l.a: [10]
+    exit.o                       20
+    -------------------------------------------------
+    Total:                       20
+
+    Gaps                         14        4
+    Linker created                        36    1'024
+-----------------------------------------------------
+    Grand Total:             13'372    5'076    9'652
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address    Size  Type      Object
+-----                       -------    ----  ----      ------
+.iar.init_table$$Base    0x800'4684           --   Gb  - Linker created -
+.iar.init_table$$Limit   0x800'46a8           --   Gb  - Linker created -
+?main                    0x800'46c9          Code  Gb  cmain.o [9]
+ADC_DMAConvCplt          0x800'18ad    0x44  Code  Lc  stm32f3xx_hal_adc_ex.o [5]
+ADC_DMAError             0x800'18f9    0x16  Code  Lc  stm32f3xx_hal_adc_ex.o [5]
+ADC_DMAHalfConvCplt      0x800'18f1     0x6  Code  Lc  stm32f3xx_hal_adc_ex.o [5]
+ADC_Disable              0x800'1961    0x66  Code  Lc  stm32f3xx_hal_adc_ex.o [5]
+ADC_Enable               0x800'190f    0x52  Code  Lc  stm32f3xx_hal_adc_ex.o [5]
+AHBPrescTable            0x800'46b8    0x10  Data  Gb  system_stm32f3xx.o [4]
+Bucket_High             0x2000'2104     0x2  Data  Gb  main.o [3]
+Bucket_Low              0x2000'2100     0x2  Data  Gb  main.o [3]
+Bucket_Med              0x2000'2102     0x2  Data  Gb  main.o [3]
+BusFault_Handler         0x800'4567     0x2  Code  Gb  stm32f3xx_it.o [3]
+Button_Code             0x2000'006e     0x1  Data  Gb  main.o [3]
+CSTACK$$Base            0x2000'21b8           --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'25b8           --   Gb  - Linker created -
+DMA1_Channel1_IRQHandler
+                         0x800'45bd    0x26  Code  Gb  stm32f3xx_it.o [3]
+DMA_CalcBaseAndBitshift
+                         0x800'1ce7    0x16  Code  Lc  stm32f3xx_hal_dma.o [5]
+DMA_SetConfig            0x800'1cc5    0x22  Code  Lc  stm32f3xx_hal_dma.o [5]
+DebugMon_Handler         0x800'456d     0x2  Code  Gb  stm32f3xx_it.o [3]
+Display_FFT              0x800'23d5   0x104  Code  Gb  main.o [3]
+Error_Handler            0x800'252b     0x4  Code  Gb  main.o [3]
+FFT_DATA_READY          0x2000'006c     0x1  Data  Gb  main.o [3]
+FFT_OUT                 0x2000'1900   0x800  Data  Gb  main.o [3]
+FFT_data                0x2000'08bc  0x1000  Data  Gb  main.o [3]
+Fill_Buckets             0x800'236d    0x62  Code  Gb  main.o [3]
+HAL_ADCEx_MultiModeConfigChannel
+                         0x800'17df    0xca  Code  Gb  stm32f3xx_hal_adc_ex.o [5]
+HAL_ADC_ConfigChannel    0x800'149d   0x266  Code  Gb  stm32f3xx_hal_adc_ex.o [5]
+HAL_ADC_ConvCpltCallback
+                         0x800'1d09     0x2  Code  Wk  stm32f3xx_hal_adc.o [5]
+HAL_ADC_ConvHalfCpltCallback
+                         0x800'1d0b     0x2  Code  Wk  stm32f3xx_hal_adc.o [5]
+HAL_ADC_ErrorCallback    0x800'1d0d     0x2  Code  Wk  stm32f3xx_hal_adc.o [5]
+HAL_ADC_Init             0x800'1189   0x1b6  Code  Gb  stm32f3xx_hal_adc_ex.o [5]
+HAL_ADC_MspInit          0x800'1a15    0x7c  Code  Gb  stm32f3xx_hal_msp.o [3]
+HAL_ADC_Start_DMA        0x800'134b    0xf6  Code  Gb  stm32f3xx_hal_adc_ex.o [5]
+HAL_DMA_IRQHandler       0x800'1c15    0xa6  Code  Gb  stm32f3xx_hal_dma.o [5]
+HAL_DMA_Init             0x800'1b49    0x4e  Code  Gb  stm32f3xx_hal_dma.o [5]
+HAL_DMA_Start_IT         0x800'1b97    0x7e  Code  Gb  stm32f3xx_hal_dma.o [5]
+HAL_GPIO_Init            0x800'1d45   0x1a8  Code  Gb  stm32f3xx_hal_gpio.o [5]
+HAL_GPIO_ReadPin         0x800'1eed     0xc  Code  Gb  stm32f3xx_hal_gpio.o [5]
+HAL_GPIO_WritePin        0x800'1ef9     0xa  Code  Gb  stm32f3xx_hal_gpio.o [5]
+HAL_GetTick              0x800'1d39     0xc  Code  Wk  stm32f3xx_hal.o [5]
+HAL_IncTick              0x800'45f1    0x10  Code  Wk  stm32f3xx_hal.o [5]
+HAL_Init                 0x800'2545    0x20  Code  Gb  stm32f3xx_hal.o [5]
+HAL_InitTick             0x800'3b85    0x40  Code  Wk  stm32f3xx_hal.o [5]
+HAL_MspInit              0x800'19e9    0x2c  Code  Gb  stm32f3xx_hal_msp.o [3]
+HAL_NVIC_EnableIRQ       0x800'2d4f    0x16  Code  Gb  stm32f3xx_hal_cortex.o [5]
+HAL_NVIC_SetPriority     0x800'2d15    0x3a  Code  Gb  stm32f3xx_hal_cortex.o [5]
+HAL_NVIC_SetPriorityGrouping
+                         0x800'2cfb    0x1a  Code  Gb  stm32f3xx_hal_cortex.o [5]
+HAL_RCCEx_PeriphCLKConfig
+                         0x800'3a11   0x100  Code  Gb  stm32f3xx_hal_rcc_ex.o [5]
+HAL_RCC_ClockConfig      0x800'3889    0xe2  Code  Gb  stm32f3xx_hal_rcc.o [5]
+HAL_RCC_GetSysClockFreq
+                         0x800'3989    0x3c  Code  Gb  stm32f3xx_hal_rcc.o [5]
+HAL_RCC_OscConfig        0x800'3579   0x308  Code  Gb  stm32f3xx_hal_rcc.o [5]
+HAL_SYSTICK_Config       0x800'2d65    0x28  Code  Gb  stm32f3xx_hal_cortex.o [5]
+HAL_TIMEx_ConfigBreakDeadTime
+                         0x800'2c55    0x7e  Code  Gb  stm32f3xx_hal_tim_ex.o [5]
+HAL_TIMEx_MasterConfigSynchronization
+                         0x800'2bf1    0x64  Code  Gb  stm32f3xx_hal_tim_ex.o [5]
+HAL_TIM_Base_Init        0x800'2571    0x1a  Code  Gb  stm32f3xx_hal_tim.o [5]
+HAL_TIM_Base_MspInit     0x800'1ab3    0x22  Code  Gb  stm32f3xx_hal_msp.o [3]
+HAL_TIM_Base_Start       0x800'258b    0x54  Code  Gb  stm32f3xx_hal_tim.o [5]
+HAL_TIM_MspPostInit      0x800'1ad5    0x40  Code  Gb  stm32f3xx_hal_msp.o [3]
+HAL_TIM_PWM_ConfigChannel
+                         0x800'27f3   0x104  Code  Gb  stm32f3xx_hal_tim.o [5]
+HAL_TIM_PWM_Init         0x800'2617    0x1a  Code  Gb  stm32f3xx_hal_tim.o [5]
+HAL_TIM_PWM_MspInit      0x800'1a91    0x22  Code  Gb  stm32f3xx_hal_msp.o [3]
+HAL_TIM_PWM_Start        0x800'2631    0xb8  Code  Gb  stm32f3xx_hal_tim.o [5]
+HAL_TIM_PWM_Stop         0x800'2703    0x76  Code  Gb  stm32f3xx_hal_tim.o [5]
+HardFault_Handler        0x800'4563     0x2  Code  Gb  stm32f3xx_it.o [3]
+MODE                    0x2000'006d     0x1  Data  Gb  main.o [3]
+MemManage_Handler        0x800'4565     0x2  Code  Gb  stm32f3xx_it.o [3]
+NMI_Handler              0x800'4561     0x2  Code  Gb  stm32f3xx_it.o [3]
+PendSV_Handler           0x800'456f     0x2  Code  Gb  stm32f3xx_it.o [3]
+Region$$Table$$Base      0x800'4684           --   Gb  - Linker created -
+Region$$Table$$Limit     0x800'46a8           --   Gb  - Linker created -
+SVC_Handler              0x800'456b     0x2  Code  Gb  stm32f3xx_it.o [3]
+ScanKeyboard             0x800'2da5    0x3c  Code  Gb  KeyboardHoldRepeat.o [2]
+SysTick_Handler          0x800'4571    0x4c  Code  Gb  stm32f3xx_it.o [3]
+SystemClock_Config       0x800'22ed    0x78  Code  Gb  main.o [3]
+SystemCoreClock         0x2000'000c     0x4  Data  Gb  system_stm32f3xx.o [4]
+SystemInit               0x800'46a9     0xc  Code  Gb  system_stm32f3xx.o [4]
+TIM_Base_SetConfig       0x800'290d    0x7a  Code  Gb  stm32f3xx_hal_tim.o [5]
+TIM_CCxChannelCmd        0x800'2bd5    0x16  Code  Gb  stm32f3xx_hal_tim.o [5]
+TIM_OC1_SetConfig        0x800'2987    0x6e  Code  Lc  stm32f3xx_hal_tim.o [5]
+TIM_OC2_SetConfig        0x800'29f5    0x64  Code  Gb  stm32f3xx_hal_tim.o [5]
+TIM_OC3_SetConfig        0x800'2a59    0x62  Code  Lc  stm32f3xx_hal_tim.o [5]
+TIM_OC4_SetConfig        0x800'2abb    0x4a  Code  Lc  stm32f3xx_hal_tim.o [5]
+TIM_OC5_SetConfig        0x800'2b05    0x50  Code  Lc  stm32f3xx_hal_tim.o [5]
+TIM_OC6_SetConfig        0x800'2b55    0x4a  Code  Lc  stm32f3xx_hal_tim.o [5]
+TRI_BLUE                0x2000'2140    0x1c  Data  Gb  main.o [3]
+TRI_GREEN               0x2000'2124    0x1c  Data  Gb  main.o [3]
+TRI_RED                 0x2000'2108    0x1c  Data  Gb  main.o [3]
+UsageFault_Handler       0x800'4569     0x2  Code  Gb  stm32f3xx_it.o [3]
+__NVIC_SetPriority       0x800'2ce1    0x1a  Code  Lc  stm32f3xx_hal_cortex.o [5]
+__aeabi_memclr4          0x800'2569          Code  Gb  ABImemclr4.o [9]
+__aeabi_memset           0x800'3b1d          Code  Gb  ABImemset.o [9]
+__cmain                  0x800'46c9          Code  Gb  cmain.o [9]
+__exit                   0x800'46fd    0x14  Code  Gb  exit.o [10]
+__iar_Memset             0x800'3b1d          Code  Gb  ABImemset.o [9]
+__iar_Memset4_word       0x800'3bc5          Code  Gb  ABImemset48.o [9]
+__iar_Memset8_word       0x800'3bc5          Code  Gb  ABImemset48.o [9]
+__iar_Memset_word        0x800'3b25          Code  Gb  ABImemset.o [9]
+__iar_copy_init3         0x800'1d0f    0x2a  Code  Gb  copy_init3.o [9]
+__iar_data_init3         0x800'4639    0x28  Code  Gb  data_init.o [9]
+__iar_init_vfp           0x800'4661          Code  Gb  fpinit_M.o [8]
+__iar_program_start      0x800'4711          Code  Gb  cstartup_M.o [9]
+__iar_zero_init3         0x800'4601    0x38  Code  Gb  zero_init3.o [9]
+__low_level_init         0x800'46e7     0x4  Code  Gb  low_level_init.o [6]
+__vector_table           0x800'0000          Data  Gb  startup_stm32f303x8.o [1]
+_call_main               0x800'46d5          Code  Gb  cmain.o [9]
+_exit                    0x800'46f1          Code  Gb  cexit.o [9]
+aPLLMULFactorTable       0x800'39f0    0x10  Data  Gb  stm32f3xx_hal_rcc.o [5]
+aPredivFactorTable       0x800'3a00    0x10  Data  Gb  stm32f3xx_hal_rcc.o [5]
+armBitRevIndexTable512   0x800'41e0   0x380  Data  Gb  arm_common_tables.o [7]
+arm_bitreversal_32       0x800'419b    0x44  Code  Gb  arm_bitreversal2.o [7]
+arm_cfft_f32             0x800'3357    0xc8  Code  Gb  arm_cfft_f32.o [4]
+arm_cfft_radix8by2_f32   0x800'2de5   0x168  Code  Gb  arm_cfft_f32.o [4]
+arm_cfft_radix8by4_f32   0x800'2f4d   0x402  Code  Gb  arm_cfft_f32.o [4]
+arm_cfft_sR_f32_len512   0x800'4748    0x10  Data  Gb  arm_const_structs.o [7]
+arm_cmplx_mag_f32        0x800'3421   0x158  Code  Gb  arm_cmplx_mag_f32.o [7]
+arm_radix8_butterfly_f32
+                         0x800'3bf9   0x5a2  Code  Gb  arm_cfft_radix8_f32.o [7]
+data                    0x2000'0070   0x800  Data  Gb  main.o [3]
+dmaISR_Flags            0x2000'21b0     0x4  Data  Gb  stm32f3xx_it.o [3]
+exit                     0x800'46eb     0x4  Code  Gb  exit.o [6]
+hadc1                   0x2000'001c    0x50  Data  Gb  main.o [3]
+hdma_adc1               0x2000'18bc    0x44  Data  Gb  main.o [3]
+htim1                   0x2000'215c    0x4c  Data  Gb  main.o [3]
+htim6                   0x2000'0870    0x4c  Data  Gb  main.o [3]
+hundred_mS_Counter      0x2000'0018     0x2  Data  Gb  stm32f3xx_it.o [3]
+hundred_mS_Flag         0x2000'0012     0x1  Data  Gb  stm32f3xx_it.o [3]
+main                     0x800'1f1d   0x38a  Code  Gb  main.o [3]
+memset                   0x800'252f    0x14  Code  Gb  memset.o [9]
+ms25_Count              0x2000'006f     0x1  Data  Gb  main.o [3]
+one_S_Counter           0x2000'001a     0x2  Data  Gb  stm32f3xx_it.o [3]
+one_S_Flag              0x2000'0013     0x1  Data  Gb  stm32f3xx_it.o [3]
+process_First           0x2000'21a8     0x4  Data  Gb  stm32f3xx_it.o [3]
+process_Second          0x2000'21ac     0x4  Data  Gb  stm32f3xx_it.o [3]
+ten_mS_Counter          0x2000'0014     0x2  Data  Gb  stm32f3xx_it.o [3]
+ten_mS_Flag             0x2000'0010     0x1  Data  Gb  stm32f3xx_it.o [3]
+twentyfive_mS_Counter   0x2000'0016     0x2  Data  Gb  stm32f3xx_it.o [3]
+twentyfive_mS_Flag      0x2000'0011     0x1  Data  Gb  stm32f3xx_it.o [3]
+twiddleCoef_512          0x800'0188  0x1000  Data  Gb  arm_common_tables.o [7]
+uwTick                  0x2000'0004     0x4  Data  Gb  stm32f3xx_hal.o [5]
+uwTickFreq              0x2000'0000     0x1  Data  Gb  stm32f3xx_hal.o [5]
+uwTickPrio              0x2000'0008     0x4  Data  Gb  stm32f3xx_hal.o [5]
+
+
+[1] = C:\Users\t_lyp\Desktop\SchoolStuff\ELEN501\lab\Board_Test\TestLittleBoard\EWARM\TestLittleBoard\Obj\Application\EWARM
+[2] = C:\Users\t_lyp\Desktop\SchoolStuff\ELEN501\lab\Board_Test\TestLittleBoard\EWARM\TestLittleBoard\Obj\Application\User
+[3] = C:\Users\t_lyp\Desktop\SchoolStuff\ELEN501\lab\Board_Test\TestLittleBoard\EWARM\TestLittleBoard\Obj\Application\User\Core
+[4] = C:\Users\t_lyp\Desktop\SchoolStuff\ELEN501\lab\Board_Test\TestLittleBoard\EWARM\TestLittleBoard\Obj\Drivers\CMSIS
+[5] = C:\Users\t_lyp\Desktop\SchoolStuff\ELEN501\lab\Board_Test\TestLittleBoard\EWARM\TestLittleBoard\Obj\Drivers\STM32F3xx_HAL_Driver
+[6] = dl7M_tlf.a
+[7] = iar_cortexM4lf_math.a
+[8] = m7M_tls.a
+[9] = rt7M_tl.a
+[10] = shb_l.a
+
+  13'372 bytes of readonly  code memory
+   5'076 bytes of readonly  data memory
+   9'652 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
